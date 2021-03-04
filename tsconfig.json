@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+    "strict": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "tasks/**/*.ts",
+    "tests/**/*.ts",
+    "utils/**/*.ts",
+    "hardhat.config.ts"
+  ]
+}
